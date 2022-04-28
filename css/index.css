@@ -17,6 +17,28 @@
       font-size: 16px;
   }
 
+  .buttom{
+      margin-bottom: 16px;
+  }
+  
+ /* 
+  
+    ABOUT ME
+  
+  */
+
+#about-me{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+   /* 
+  
+    END OF THE ABOUT ME
+  
+  */
+
 
   /* 
   
@@ -83,10 +105,43 @@
 
   */
 
+  .about-me__info--container{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 0 auto;
+      align-items: center;
+  }
 
+  .row{
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+  }
 
+  .about-me__picture--mask{
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 10px 16px rgba(0, 0, 0, 0.20);
+  }
 
+  .about-me__picture{
+      width: 100%;
+  }
 
+  .flex{
+    display: flex;
+  }
+
+.flex-1{
+  flex: 1;
+}
+
+.text--purple{
+    color: rgb(136, 30, 236);
+}
 
    /* 
   
