@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   
   h1, h2, h3, h4, h5, h6, span {
@@ -143,7 +144,7 @@
 
 .personal__logo{
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 2em;
     margin-top: 0.7rem;
     color: rgb(70, 39, 194);
     text-align: center;
@@ -229,6 +230,9 @@
 .text--purple{
     color: rgb(136, 30, 236);
 }
+.text--blue{
+  color: rgb(184, 44, 60);
+}
 
 .about-me__img{
     display: flex;
@@ -240,6 +244,12 @@
     margin: 2.2rem 0;
     width: 100%;
     max-width: 700px;
+}
+
+.other-font{
+  font-family: 'Pacifico', cursive;
+  font-size: 1.8rem;
+  /* box-shadow: 60px 20px 10px rgba(0, 0, 0, 0.1); */
 }
 
 .section__title {
