@@ -231,7 +231,7 @@
     color: rgb(136, 30, 236);
 }
 .text--blue{
-  color: rgb(184, 44, 60);
+  color: rgb(136, 30, 236);
 }
 
 .about-me__img{
@@ -257,6 +257,24 @@
 }
 
 /* skills */
+.child--description li{
+  list-style-type: disc;
+}
+.child--description ul{
+  margin-top: 20px;
+}
+
+.child--description p:last-child{
+  text-align: center;
+}
+
+.child--description p:last-child span{
+  font-size: 0.7rem;
+}
+
+.child--description h3{
+  color: rgb(246, 185, 154);
+}
 
 .skills{
   display: flex;
@@ -313,7 +331,7 @@
 .child--description{
   position: absolute;
   top: 50px;
-  left: 10px;
+  left: 25px;
   text-align: left;
   width: 100%;
   max-width: 80%;
@@ -321,7 +339,7 @@
   color: white;
   font-weight: bold;
   opacity: 0;
-  transform: translateY(100%);
+  transform: translateY(30%);
   transition: all 350ms ease;
   margin: 0 auto;
 }
@@ -343,11 +361,7 @@
     max-width: 100px;
     transition: all 300ms;
   }
-  .language:hover .language__img {
-    filter: brightness(80%);
-    opacity: 0.86;
-    transform: scale(0.9);
-  }
+  
   
   .language {
     width: 25%;
@@ -372,7 +386,6 @@
   .language__name {
     position: absolute;
     bottom: 0;
-    transform: scale(0);
     transition: all 300ms;
     font-size: 20px;
     opacity: 0;
@@ -595,7 +608,7 @@
     }
   } */
 
-  @media (max-width:800px) {
+  @media (max-width:810px) {
     .personal__logo{
       display: none;
     }
@@ -612,8 +625,32 @@
       align-items: center;
       margin-bottom: 28px;
     }
+    .child--description{
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    .child::before{
+      opacity: 0.8;
+      border-radius: 3em;
+      transform: translateY(0%);
+    }
+    .language__name{
+      opacity: 1;
+      font-size: 0.9rem;
+    }
 
+  }
 
+  @media (min-width:810px) {
+    .language__name{
+      transform: scale(0);
+    }
+
+    .language:hover .language__img {
+      filter: brightness(80%);
+      opacity: 0.86;
+      transform: scale(0.9);
+    }
   }
 
   @media (max-width:380px) {
