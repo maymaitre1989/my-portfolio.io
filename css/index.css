@@ -189,6 +189,7 @@
     color: rgb(87, 69, 225);
     position: absolute;
     font-weight: bold;
+    z-index: 8;
   }
 
   .about-me__info--container{
@@ -624,6 +625,7 @@
       min-height: 90vh;
       padding-bottom: 5px;
     }
+    .click{display: none;}
 
   }
 
