@@ -652,7 +652,7 @@
       font-size: 0.9rem;
     }
     #about-me{
-      min-height: 90vh;
+      min-height: 85vh;
       padding-bottom: 5px;
     }
     .click{display: none;}
