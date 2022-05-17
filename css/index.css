@@ -372,6 +372,24 @@
   list-style-type: none;
 }
 
+.wave {
+  color: rgb(87, 69, 225);
+  display: inline-block;
+  animation: animate-wave 500ms infinite ease-in-out;
+}
+
+@keyframes animate-wave {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
 /* End of skills */
 
    /* 
