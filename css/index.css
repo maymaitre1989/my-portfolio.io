@@ -373,7 +373,7 @@ li {
   text-align: center;
 }
 
-.child--description ul li {
+.descrip ul li {
   list-style-type: none;
 }
 
@@ -625,7 +625,9 @@ footer {
   .personal__logo {
     display: none;
   }
-
+  .click {
+    display: none;
+  }
   .navigation {
     display: flex;
     justify-content: center;
@@ -654,9 +656,6 @@ footer {
   #about-me {
     min-height: 85vh;
     padding-bottom: 5px;
-  }
-  .click {
-    display: none;
   }
 }
 
