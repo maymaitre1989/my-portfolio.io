@@ -103,7 +103,10 @@ li {
 
 .nav__link--list {
   display: flex;
-  gap: 1.5rem;
+  /* gap: 1.5rem; */
+}
+.nav__link--list li {
+  margin-left: 1.5rem;
 }
 
 .nav__link--anchor {
@@ -299,10 +302,13 @@ li {
 
 .skills {
   display: flex;
-  gap: 0 3em;
+  /* gap: 0 3em; */
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
+}
+.skills .child--help {
+  margin-left: 2.5em;
 }
 
 .skills img {
@@ -315,7 +321,7 @@ li {
 .child {
   position: relative;
   margin: 1em 0;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.2);
   border-radius: 3em;
 }
 .child::before {
